@@ -1,0 +1,64 @@
+.containerC{
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+    color: white;
+    box-sizing: border-box;
+}
+
+.mainCDiv{
+    display: flex;
+}
+
+.leftCDiv{
+    height: 90vh;
+    width: 40vw;
+    padding: 8vh 0 0 7vw;
+}
+
+.leftHeading{
+    font-family: 'Single Day',cursive;
+    font-size: 50px;
+    font-weight: 400;
+    color: #72DB73;
+}
+
+.leftSubHeading{
+    color: white;
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 50px;
+    margin-top: 10px;
+}
+
+.selectedCategory{
+    margin-top: 20px;
+}
+
+.rightCDiv{
+    height: 90vh;
+    width: 60vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 8vh 0 0 7vw;
+}
+
+.rightCDiv img{
+    height: 95px;
+    width: 150px;
+}
+
+.nextPage{
+    padding: 10px 15px;
+    border-radius: 20px;
+    background-color: #148A08;
+    color: white;
+    font-family: 'DM Sans';
+    font-weight: 500;
+    font-size: 18px;
+    margin-left: 85vw;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+

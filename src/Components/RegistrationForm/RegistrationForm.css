@@ -19,6 +19,8 @@
 .coverImage{
     height: 100vh;
     width: 50vw;
+    z-index: -1;
+    position: absolute;
 }
 
 .tagLine{
@@ -27,6 +29,7 @@
     font-weight: 900;
     margin-left: 50px;
     margin-top: 480px;
+    color: white;
 }
 
 /* Right Div Styling */

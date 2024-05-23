@@ -1,0 +1,19 @@
+.x{
+    cursor: pointer;
+}
+
+.selectedChip{
+    padding: 5px 10px;
+    width: 110px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.chipDiv{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+
+

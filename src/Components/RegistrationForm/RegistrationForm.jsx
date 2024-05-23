@@ -2,6 +2,7 @@ import React from "react";
 import "./RegistrationForm.css";
 import { useState } from "react";
 import { json, useNavigate } from "react-router-dom";
+import CoverImg from "../../assets/image13.png"
 
 const RegistrationForm = () => {
   const [formValues, setFormValues] = useState({
@@ -68,7 +69,7 @@ const RegistrationForm = () => {
   return (
     <div className="mainDiv">
       <div className="leftDiv">
-        <img src="/assets/image13.png" alt="" className="coverImage" />
+        <img src={CoverImg} alt="" className="coverImage" />
         <div className="tagLine">Discover new things on Superapp</div>
       </div>
 
