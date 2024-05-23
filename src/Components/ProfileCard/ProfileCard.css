@@ -1,0 +1,59 @@
+.profileContainer{
+    background-color: #5746EA;
+    color: white;
+    height: 33vh;
+    width: 30vw;
+    border-radius: 20px;
+    padding: 10px 20px;
+    display: flex;
+    gap: 30px;
+}
+
+.profilePic img{
+    height: 29vh;
+    width: 7vw;
+}
+
+.valueContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 20vw;
+}
+
+.userDetailsDiv{
+    font-family: 'Roboto';
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+
+.detailName{
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.detailEmail{
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.detailUsername{
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.genreDetailsDiv{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 7px;
+}
+
+.genreSelected{
+    background-color: #9F94FF;
+    border-radius: 15px;
+    padding: 10px;
+    font-size: 15px;
+    font-weight: 400;
+}
+

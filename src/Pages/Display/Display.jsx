@@ -1,11 +1,15 @@
-import React from 'react'
+import React from "react";
+import ProfileCard from "../../Components/ProfileCard/ProfileCard";
+import './Display.css'
 
 const Display = () => {
   return (
-    <div>
-      <h1>Display Page</h1>
+    <div className="mainProfileDiv">
+      <div className="contentDisplayDiv">
+        <ProfileCard />
+      </div>
     </div>
-  )
-}
+  );
+};
 
-export default Display
+export default Display;

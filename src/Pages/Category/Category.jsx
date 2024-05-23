@@ -68,6 +68,7 @@ const Category = () => {
   const navigate = useNavigate();
 
   const handleClick = () => {
+    localStorage.setItem("movies",JSON.stringify(selected));
     navigate("/display");
   };
 
@@ -81,12 +82,12 @@ const Category = () => {
             {selected.map((item) => {
               return (
                 <CategoryChip
-                key={item}
-                data={item}
-                selected={selected}
-                setSelected={setSelected}
+                  key={item}
+                  data={item}
+                  selected={selected}
+                  setSelected={setSelected}
                 />
-              )
+              );
             })}
           </div>
         </div>
