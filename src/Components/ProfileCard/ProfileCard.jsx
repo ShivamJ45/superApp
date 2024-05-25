@@ -11,7 +11,7 @@ const ProfileCard = () => {
   const getMovieGenre = localStorage.getItem("movies");
   const saveMovieGenre = JSON.parse(getMovieGenre);
 
-  console.log(saveMovieGenre);
+  // console.log(saveMovieGenre);
 
   return (
     <div className="profileContainer">
