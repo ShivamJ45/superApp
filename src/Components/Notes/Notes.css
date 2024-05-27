@@ -1,0 +1,24 @@
+.notesMainDiv{
+    background-color: #F1C75B;
+    width: 25vw;
+    box-sizing: border-box;
+    padding: 10px 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    font-family: 'Roboto';
+    border-radius: 20px;
+}
+
+.notesMainDiv p{
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.notesMainDiv textarea{
+    outline: none;
+    background: none;
+    border: none;
+    font-size: 17px;
+    font-weight: 400;
+}
