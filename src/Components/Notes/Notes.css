@@ -1,6 +1,7 @@
 .notesMainDiv{
     background-color: #F1C75B;
-    width: 25vw;
+    width: 24vw;
+    height: 55vh;
     box-sizing: border-box;
     padding: 10px 25px;
     display: flex;

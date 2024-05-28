@@ -1,28 +1,31 @@
-.mainNewsDiv{
-    font-family: 'Roboto';
-    height: 85vh;
-    width: 30vw;
-    box-sizing: border-box;
+.mainNewsDiv {
+  height: 85vh;
+  width: 30vw;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  font-family: "Roboto";
 }
 
-.newsTitle{
-    color: white;
-    background-color: black;
-    padding: 20px;
-    font-size: 26px;
-    font-weight: 500;
+.newsTitle {
+  color: white;
+  background-color: black;
+  padding: 10px;
+  font-size: 26px;
+  font-weight: 500;
 }
 
-.newsText{
-    color: black;
-    background-color: white;
-    font-size: 16px;
-    height: 10vh;
-    font-weight: 400;
-    text-align: justify;
+.newsText {
+  color: black;
+  background-color: white;
+  font-size: 16px;
+  height: 30vh;
+  font-weight: 400;
+  text-align: justify;
 }
 
-.mainNewsDiv img{
-    width: 30vw;
-    height: 40vh;
+.mainNewsDiv img {
+  width: 30vw;
+  height: 40vh;
 }

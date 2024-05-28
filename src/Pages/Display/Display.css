@@ -1,10 +1,47 @@
-.mainProfileDiv{
+.mainDisplayDiv{
     box-sizing: border-box;
     background-color: black;
     height: 100vh;
     width: 100vw;
-    padding-top: 8vh;
-    padding-left: 4vw;
-    padding-right: 4vw;
 }
 
+.mainProfileDiv{
+    
+    padding-top: 4vh;
+    padding-left: 4vw;
+    padding-right: 4vw;
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+.leftDisplayDiv{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.upperDisplayDiv{
+    display: flex;
+    gap: 15px;
+}
+
+.upperLeftDiv{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.browseBtn{
+    padding: 10px 15px;
+    border-radius: 20px;
+    background-color: #148A08;
+    color: white;
+    font-family: 'DM Sans';
+    font-weight: 500;
+    font-size: 18px;
+    margin-left: 84vw;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}

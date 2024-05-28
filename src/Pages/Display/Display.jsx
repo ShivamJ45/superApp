@@ -22,9 +22,10 @@ const Display = () => {
   // console.log(getTime);
 
   return (
+    <div className="mainDisplayDiv">
     <div className="mainProfileDiv">
       <div className="leftDisplayDiv">
-        <div className="upperDisplayDIv">
+        <div className="upperDisplayDiv">
           <div className="upperLeftDiv">
             <ProfileCard />
             <WeatherTime fullDate={fullDate} getTime={getTime} />
@@ -41,6 +42,8 @@ const Display = () => {
       <div className="rightDisplayDiv">
         <News />
       </div>
+    </div>
+    <button className="browseBtn" onClick={()=>{navigate("/browse");}}>Browse</button>
     </div>
   );
 };

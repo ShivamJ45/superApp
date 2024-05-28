@@ -3,7 +3,7 @@ import { useState } from "react";
 import "./Notes.css"
 
 const Notes = () => {
-  const [notes, setNotes] = useState("");
+  const [notes, setNotes] = useState(localStorage.getItem("notes") ?? "");
 
   const handleChange = (event) => {
     setNotes(event.target.value)
